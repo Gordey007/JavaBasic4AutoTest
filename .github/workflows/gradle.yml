@@ -35,4 +35,4 @@ jobs:
         with:
           arguments: build
       - name: Run JUnit test
-        run: gradle :test --tests "com.gordeyvasilev.MainTest"
+        run: gradle :test --tests "com.gordeyvasilev.Practice27Test"
