@@ -24,7 +24,7 @@ public class Practice27 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        long seconds = scanner.nextLong();
+        long seconds = scanner.nextLong(); // 1337L;
 
         long hours = seconds / 3600;
         long minutes = (seconds % 3600) / 60;
