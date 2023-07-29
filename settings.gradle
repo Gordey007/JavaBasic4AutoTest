@@ -1,2 +1,3 @@
 rootProject.name = 'JavaBasic4AutoTest'
-
+include 'Practice27'
+include 'Practice35'
