@@ -14,6 +14,11 @@ class MainTest {
     @DisplayName("Should print 'Hello world!' to the console")
         // Redirect System.out to capture the output
     void mainMethodPrintsHelloWorld() {
+        System.out.println("""
+                ****************************************************************************
+                Should print 'Hello world!' to the console
+                ****************************************************************************
+                """);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         PrintStream printStream = new PrintStream(outputStream);
         System.setOut(printStream);
