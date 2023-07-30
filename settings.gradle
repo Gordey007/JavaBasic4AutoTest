@@ -3,4 +3,7 @@ include 'Theory54Methods'
 include 'Practice35ConditionsAndLoop'
 include 'Practice27DataTypes'
 include 'Theory52ClassesAndObjects'
+include 'Theory57Constructors'
+include 'Theory58BlocksInitializations'
+include 'Theory59Packages'
 
