@@ -1,5 +1,4 @@
-package com.gordeyvasilev;
-
+import com.gordeyvasilev.Practice27;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +12,7 @@ class Practice27Test {
         // Redirect System.out to capture the output
     void oneMin() {
         String string = "60";
-        InputStream stringStream = new java.io.ByteArrayInputStream(string.getBytes());
+        InputStream stringStream = new ByteArrayInputStream(string.getBytes());
 
         System.setIn(stringStream);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -35,7 +34,7 @@ class Practice27Test {
     @DisplayName("Should print 62 seconds in h:mm:ss format")
     void sixty2Sec() {
         String string = "62";
-        InputStream stringStream = new java.io.ByteArrayInputStream(string.getBytes());
+        InputStream stringStream = new ByteArrayInputStream(string.getBytes());
 
         System.setIn(stringStream);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -54,7 +53,7 @@ class Practice27Test {
     @DisplayName("Should print 62 seconds in h:mm:ss format")
     void leetSec() {
         String string = "1337";
-        InputStream stringStream = new java.io.ByteArrayInputStream(string.getBytes());
+        InputStream stringStream = new ByteArrayInputStream(string.getBytes());
 
         System.setIn(stringStream);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -73,7 +72,7 @@ class Practice27Test {
     @DisplayName("Should print 49020 seconds in h:mm:ss format")
     void moreThan10h() {
         String string = "49020";
-        InputStream stringStream = new java.io.ByteArrayInputStream(string.getBytes());
+        InputStream stringStream = new ByteArrayInputStream(string.getBytes());
 
         System.setIn(stringStream);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -92,7 +91,7 @@ class Practice27Test {
     @DisplayName("Should print 0 seconds in h:mm:ss format")
     void all2Zero() {
         String string = "000";
-        InputStream stringStream = new java.io.ByteArrayInputStream(string.getBytes());
+        InputStream stringStream = new ByteArrayInputStream(string.getBytes());
 
         System.setIn(stringStream);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
@@ -111,7 +110,7 @@ class Practice27Test {
     @DisplayName("Should print 86401 seconds in h:mm:ss format")
     void moreThanDay() {
         String string = "86401";
-        InputStream stringStream = new java.io.ByteArrayInputStream(string.getBytes());
+        InputStream stringStream = new ByteArrayInputStream(string.getBytes());
 
         System.setIn(stringStream);
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();

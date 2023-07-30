@@ -1,3 +1,6 @@
 rootProject.name = 'JavaBasic4AutoTest'
-include 'Practice27'
-include 'Practice35'
+include 'Theory54Methods'
+include 'Practice35ConditionsAndLoop'
+include 'Practice27DataTypes'
+include 'Theory52ClassesAndObjects'
+

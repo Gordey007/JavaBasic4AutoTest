@@ -1,5 +1,4 @@
-package com.gordeyvasilev;
-
+import com.gordeyvasilev.Practice35;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
