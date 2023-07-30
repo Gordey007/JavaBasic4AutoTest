@@ -9,8 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Practice27" />
-            <option value="$PROJECT_DIR$/Practice35" />
+            <option value="$PROJECT_DIR$/Practice27DataTypes" />
+            <option value="$PROJECT_DIR$/Practice35ConditionsAndLoop" />
+            <option value="$PROJECT_DIR$/Theory52ClassesAndObjects" />
+            <option value="$PROJECT_DIR$/Theory54Methods" />
           </set>
         </option>
       </GradleProjectSettings>
