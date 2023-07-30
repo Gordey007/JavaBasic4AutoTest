@@ -23,7 +23,7 @@ import java.util.List;
 public class Practice35 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // test
+        
         String names = scanner.nextLine();
 
         List<String> l = switch (List.of(names.split(" ")).get(0)) {
