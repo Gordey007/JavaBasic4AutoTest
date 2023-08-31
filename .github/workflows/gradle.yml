@@ -34,7 +34,23 @@ jobs:
         uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
         with:
           arguments: build
-      - name: Run JUnit test Practice27Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice27Test"
-      - name: Run JUnit test Practice35Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice35Test"
+      - name: Run JUnit test Practice_2_7_1_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_2_7_1_Test"
+      - name: Run JUnit test Practice_3_5_2_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_2_Test"
+      - name: Run JUnit test Practice_3_5_3_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_3_Test"
+      - name: Run JUnit test Practice_3_5_4_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_4_Test"
+      - name: Run JUnit test Practice_3_5_5_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_5_Test"
+      - name: Run JUnit test Practice_3_5_6_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_6_Test"
+#      - name: Run JUnit test Practice_3_5_8_Test
+#        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_8_Test"
+      - name: Run JUnit test Practice_4_6_2_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_4_6_2_Test"
+      - name: Run JUnit test Practice_4_6_3_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_4_6_3_Test"
+      - name: Run JUnit test Practice_4_6_4_Test
+        run: gradle :test --tests "com.gordeyvasilev.Practice_4_6_4_Test"
