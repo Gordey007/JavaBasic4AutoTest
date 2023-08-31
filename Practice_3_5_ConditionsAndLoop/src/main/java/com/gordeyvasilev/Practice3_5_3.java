@@ -17,7 +17,7 @@ public class Practice3_5_3 {
             if (a >= h)
                 System.out.println(1);
             else if (a <= b)
-                System.out.println("Никогда");
+                System.out.println("Never");
             else if (h == 0)
                 System.out.println(0);
             else {

@@ -24,7 +24,7 @@ public class Practice3_5_8 {
                 double x;
                 x = -b / (2 * a);
                 System.out.printf("%.1f", x);
-            } else System.out.println("без корней");
+            } else System.out.println("without roots");
         }
     }
 }

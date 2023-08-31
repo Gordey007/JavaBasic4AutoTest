@@ -45,7 +45,7 @@ class Practice_3_5_4_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        Assertions.assertEquals("Кто здесь?!", printedOutput);
+        Assertions.assertEquals("Who is there?!", printedOutput);
     }
 
 
@@ -65,6 +65,6 @@ class Practice_3_5_4_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        Assertions.assertEquals("Еда не так плоха, чтобы за ее поедание доплачивали", printedOutput);
+        Assertions.assertEquals("The food isn't so bad that you get paid to eat it.", printedOutput);
     }
 }

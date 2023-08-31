@@ -10,7 +10,7 @@ public class Practice_4_6_2 {
             int size = Integer.parseInt(scanner.nextLine());
 
             if (size < 1)
-                System.out.println("Массив нулевого размера");
+                System.out.println("Array of zero size");
             else {
                 String[] str = scanner.nextLine().split(" ");
 

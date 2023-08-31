@@ -142,6 +142,6 @@ class Practice_3_5_8_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        Assertions.assertEquals("без корней", printedOutput);
+        Assertions.assertEquals("without roots", printedOutput);
     }
 }

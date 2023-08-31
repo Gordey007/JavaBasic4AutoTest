@@ -45,6 +45,6 @@ class Practice_4_6_2_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        Assertions.assertEquals("Массив нулевого размера", printedOutput);
+        Assertions.assertEquals("Array of zero size", printedOutput);
     }
 }

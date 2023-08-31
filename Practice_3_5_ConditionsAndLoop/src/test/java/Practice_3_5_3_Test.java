@@ -121,7 +121,7 @@ class Practice_3_5_3_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        Assertions.assertEquals("Никогда", printedOutput);
+        Assertions.assertEquals("Never", printedOutput);
     }
 
     @Test
@@ -139,6 +139,6 @@ class Practice_3_5_3_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        Assertions.assertEquals("Никогда", printedOutput);
+        Assertions.assertEquals("Never", printedOutput);
     }
 }
