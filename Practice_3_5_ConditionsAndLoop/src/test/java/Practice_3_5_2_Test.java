@@ -65,6 +65,6 @@ class Practice_3_5_2_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        Assertions.assertEquals("Dear, Smith1\nDear, John", printedOutput);
+        Assertions.assertEquals("Dear, Smith\nDear, John", printedOutput);
     }
 }
