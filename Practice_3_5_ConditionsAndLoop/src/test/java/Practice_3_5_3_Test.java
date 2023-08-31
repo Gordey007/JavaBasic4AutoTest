@@ -106,7 +106,7 @@ class Practice_3_5_3_Test {
 
 
     @Test
-    @DisplayName("Should be processed \"Никогда\"")
+    @DisplayName("Should be processed \"Never\"")
     void never1() {
         String string = "3\n5\n7";
         InputStream stringStream = new ByteArrayInputStream(string.getBytes());
