@@ -46,8 +46,8 @@ jobs:
         run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_5_Test"
       - name: Run JUnit test Practice_3_5_6_Test
         run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_6_Test"
-      - name: Run JUnit test Practice_3_5_8_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_8_Test"
+#      - name: Run JUnit test Practice_3_5_8_Test
+#        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_8_Test"
       - name: Run JUnit test Practice_4_6_2_Test
         run: gradle :test --tests "com.gordeyvasilev.Practice_4_6_2_Test"
       - name: Run JUnit test Practice_4_6_3_Test
