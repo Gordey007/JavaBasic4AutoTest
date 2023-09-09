@@ -4,6 +4,7 @@ import static com.gordeyvasilev.theory62staticandfinal.Car.numOfCars2_1;
 
 public class Demo2 {
     public static void main(String[] arg) {
+        var t = 1337;
 //        Car сar1 = new Car();
 //        Car сar2 = new Car();
 //        Car сar3 = new Car();
