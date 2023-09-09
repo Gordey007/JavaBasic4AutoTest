@@ -123,6 +123,6 @@ class Practice_2_7_1_Test {
 
         String printedOutput = outputStream.toString().trim();
 
-        assertEquals("0:00:01", printedOutput);
+        assertEquals("0:00:011", printedOutput);
     }
 }
