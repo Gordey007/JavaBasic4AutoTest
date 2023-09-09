@@ -5,12 +5,21 @@ package com.gordeyvasilev;
 // Static constants and static class methods can be used
 // without class membership by using static imports, as shown below.
 
+/**
+ * При вызове статических методов и обращении к статическим константам приходится использовать в качестве префикса
+ * имя класса, что утяжеляет код и снижает скорость его восприятия.
+ * */
 import static java.lang.Math.*;
+
+import static java.lang.Math.E; // for one constant
+import static java.lang.Math.cos; // for one method
 
 
 public class Main {
     public static void main(String[] args) {
         System.out.println(2 * PI * 3);
         System.out.println(floor(cos(PI / 3)));
+
+        System.out.println(E);
     }
 }
