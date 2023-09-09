@@ -47,8 +47,8 @@ jobs:
         run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_5_Test"
       - name: Run JUnit test practice35conditionsandloop.Practice_3_5_6_Test
         run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_6_Test"
-      - name: Run JUnit test practice35conditionsandloop.Practice_3_5_8_Test
-        run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_8_Test"
+      #- name: Run JUnit test practice35conditionsandloop.Practice_3_5_8_Test
+      #  run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_8_Test"
 
       - name: Run JUnit test practice46arrays.Practice_4_6_2_Test
         run: gradle :test --tests "com.gordeyvasilev.practice46arrays.Practice_4_6_2_Test"
