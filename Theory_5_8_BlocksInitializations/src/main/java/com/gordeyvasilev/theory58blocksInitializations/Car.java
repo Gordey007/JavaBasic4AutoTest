@@ -17,15 +17,15 @@ public class Car {
 
     // Dynamic blocks are executed only when a class object is created. Therefore, dynamic blocks can
     // use to set the initial state of the object.
-    {
-        numOfCars++;
-    }
+//    {
+//        numOfCars++;
+//    }
 
-    public Car() {
-    }
+//    public Car() {
+//    }
 
-    public Car(String model) {
-    }
+//    public Car(String model) {
+//    }
 
     /**
      * Garbage collection occurs only occasionally during program execution. It doesn't happen right away
@@ -53,7 +53,7 @@ public class Car {
      * (for example, if the program ends before garbage collection starts,
      * then the method will not be called).
      */
-    protected void finalize() {
-
-    }
+//    protected void finalize() {
+//
+//    }
 }
