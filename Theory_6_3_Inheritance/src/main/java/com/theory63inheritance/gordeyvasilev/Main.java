@@ -1,17 +1,17 @@
 package com.theory63inheritance.gordeyvasilev;
 
 /**
- * Наследование — это свойство, позволяющее создать новый класс на основе существующего с частичным или полным
- * заимствованием характеристик. Это позволяет упорядочить классы в иерархии, которая представляет
- * отношения типа <b>is-a</b>
+ * Inheritance is a property that allows you to create a new class based on an existing one with partial or complete
+ * borrowing characteristics. This allows you to arrange classes in a hierarchy that represents
+ * relations of type <b>is-a</b>
  */
 
 import com.theory63inheritance.other.Car;
 
 /**
- * В противовес наследованию существует другой вид отношений между классами – композиция, когда один класс включает
- * в себя объекты других классов. Таким образом описываются сложные объекты. Такое отношение определяется
- * как <b>has-a</b> (имеет в своем составе).
+ * As opposed to inheritance, there is another type of relationship between classes - composition, when one class includes
+ * includes objects of other classes. This is how complex objects are described. This attitude is determined
+ * as <b>has-a</b> (has in its composition).
  */
 public class Main {
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class Main {
         Car.show2();
 
         ElectricCar electricCar = new ElectricCar();
-        electricCar.setName("Lightning"); // Вызов унаследованного метода
+        electricCar.setName("Lightning"); // Call an inherited method
         electricCar.show();
 
         System.out.println(electricCar.name2);

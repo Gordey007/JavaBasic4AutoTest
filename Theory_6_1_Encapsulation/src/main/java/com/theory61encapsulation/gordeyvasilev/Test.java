@@ -1,6 +1,6 @@
 package com.theory61encapsulation.gordeyvasilev;
 
-// private/protected  class - не может быть
+// private/protected  class - can't be
 public class Test {
 
     private static class SubTest {

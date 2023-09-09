@@ -3,8 +3,8 @@ package com.gordeyvasilev.theory54methods;
 public class VarArg {
 
     /**
-     * Такие методы называются методами переменной арности (varargs). Методы переменной арности используются в случае,
-     * когда одно и тоже действие требуется выполнить над различным количеством значений одного типа.
+     * Such methods are called variable arity methods (varargs). Variable arity methods are used
+     * when the same action needs to be performed on different numbers of values of the same type.
      */
     public int calcSum(int... values) {
         int res = 0;

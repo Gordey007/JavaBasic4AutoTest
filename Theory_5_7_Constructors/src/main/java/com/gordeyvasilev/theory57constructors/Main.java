@@ -7,11 +7,11 @@ public class Main {
         System.out.println(car.getModelCar2());
         System.out.println(car.getFlag());
 
-        // не конструктор
+        // Not a constructor.
         car.Car("Tesla");
 
 
-        // Контруктор ссылается на др. конструктор, где есть запись полей
+        // The constructor refers to another constructor where there is a field record.
         Car2 car2 = new Car2();
 
         System.out.println("\n" + car2.getModel());

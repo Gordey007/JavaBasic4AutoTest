@@ -1,17 +1,17 @@
 package com.gordeyvasilev.theory62staticandfinal;
 
 /**
- * В классе CustomMath нет полей экземпляра. Методы получают данные для работы через свои параметры, то есть класс
- * не имеет состояния. В этом случае методы лучше описать как статические.
+ * The CustomMath class has no instance fields. Methods receive data to work through their parameters, that is, the class
+ * has no state. In this case, the methods are better described as static.
  */
 public class CustomMath {
     /**
-     * Статические поля класса:
+     * Static class fields:
      * <p>
-     * создаются при первом обращении к классу
-     * создаются в единственном числе
-     * существуют независимо от экземпляров класса
-     * допускают обращение к ним до создания экземпляра класса.
+     * are created the first time the class is accessed
+     * are created in singular
+     * exist independently of class instances
+     * allow access to them before creating an instance of the class.
      */
     public static int percent;
 

@@ -12,11 +12,11 @@ public class Car {
     //}
 
     // Dynamic initialization block
-    // Чтобы избежать дублирования, следует вынести общий код из конструкторов в динамический блок
+    // To avoid duplication, you should move the common code from the constructors to a dynamic block
 
 
-    // Динамические блоки исполняются только тогда, когда создается объект класса. Поэтому динамические блоки могут
-    // использоваться для настройки начального состояния объекта.
+    // Dynamic blocks are executed only when a class object is created. Therefore, dynamic blocks can
+    // use to set the initial state of the object.
     {
         numOfCars++;
     }
@@ -28,30 +28,30 @@ public class Car {
     }
 
     /**
-     * Сборка мусора осуществляется лишь время от времени по ходу исполнения программы. Она не выполняется сразу же
-     * после обнаружения объектов, которые больше не используются. Обычно, во избежание снижения производительности,
-     * сборка мусора выполняется лишь при выполнении двух условий: существуют объекты, подлежащие удалению, и есть
-     * необходимость освободить занимаемую ими память.
+     * Garbage collection occurs only occasionally during program execution. It doesn't happen right away
+     * after discovering objects that are no longer in use. Typically, to avoid performance degradation,
+     * garbage collection is performed only if two conditions are met: there are objects to be deleted, and there are
+     * the need to free up the memory they occupy.
      * */
 
     /**
-     * В Java предусмотрена возможность определить метод-финализатор – finalize(),
-     * который будет вызван перед окончательным удалением объекта из памяти. Он позволяет убедиться в том, что объект
-     * можно безболезненно удалить.
+     * Java provides the ability to define a finalizer method – finalize(),
+     * which will be called before the object is permanently removed from memory. It allows you to make sure that the object
+     * can be removed painlessly.
      *
-     * Чтобы добавить в класс финализатор, достаточно переопределить в нем метод finalize(), унаследованный от класса
-     * Object. Исполняющая система Java вызовет этот метод перед фактическим удалением объекта.
-     * В теле метода finalize() следует предусмотреть действия, которые должны быть выполнены непосредственно перед
-     * удалением объекта.
+     * To add a finalizer to a class, it is enough to override the finalize() method, inherited from the class
+     *Object. The Java runtime will call this method before actually deleting the object.
+     * The body of the finalize() method should provide actions that must be performed immediately before
+     * deleting an object.
      * */
 
     /**
-     * - ключевое слово protected предотвращает доступ к методу за пределами класса
-     * - метод вызывается тогда, когда система сборки мусора принимает решение об освобождении памяти,
-     * занимаемой данным объектом
-     * - если объект в это время оказывается вне области видимости, то метод не будет вызван
-     * (например, если программа успеет завершиться до того, как будет запущена сборка мусора,
-     * то вызова метода не произойдет).
+     * - the protected keyword prevents access to the method outside the class
+     * - the method is called when the garbage collection system decides to free memory,
+     * occupied by this object
+     * - if the object is out of scope at this time, the method will not be called
+     * (for example, if the program ends before garbage collection starts,
+     * then the method will not be called).
      */
     protected void finalize() {
 

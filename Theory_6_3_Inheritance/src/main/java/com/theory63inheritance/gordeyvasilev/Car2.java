@@ -1,7 +1,7 @@
 package com.theory63inheritance.gordeyvasilev;
 
 public class Car2 {
-    // Подкласс наследует package-private элементы суперкласса только в том случае, если они определены в одном пакете.
+    // A subclass inherits package-private elements of the superclass only if they are defined in the same package.
     String name = "Car2 test";
 
     public void setName(String name) {

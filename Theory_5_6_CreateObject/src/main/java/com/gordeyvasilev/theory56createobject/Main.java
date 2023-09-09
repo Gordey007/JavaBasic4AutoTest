@@ -3,20 +3,20 @@ package com.gordeyvasilev.theory56createobject;
 public class Main {
     public static void main(String[] args) {
 
-        // Литерал null может быть назначен переменной любого ссылочного типа или приведен к любому ссылочному типу.
+        // The null literal can be assigned to a variable of any reference type or cast to any reference type.
         String str1 = null;
         Car car1 = null;
 
         String str2 = (String) null;
         Car car2 = (Car) null;
 
-        // Литерал null нельзя использовать с другими операторами отношений, например, < или >.
+        // The null literal cannot be used with other relational operators, such as < or >.
         System.out.println(null == null);
         System.out.println(car1 == null);
         System.out.println(car1 != car2);
 
-        // При вызове метода экземпляра через ссылочную переменную со значением null,
-        // произойдет ошибка времени исполнения - NullPointerException!
+        // When calling an instance method through a reference variable with the value null,
+        // a runtime error will occur - NullPointerException!
         try {
             car1.getCarModel();
         } catch (NullPointerException e) {

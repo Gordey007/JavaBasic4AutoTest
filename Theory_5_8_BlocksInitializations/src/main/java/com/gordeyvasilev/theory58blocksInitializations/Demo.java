@@ -33,15 +33,13 @@ public class Demo {
     // Class field
     private static int b = 100;
 
-    /**
-     * динамические блоки инициализации, которые могут быть альтернативой конструкторам класса для инициализации полей
-     * экземпляра. Описываются просто в теле класса, вне любых других блоков.
-     * */
+    // dynamic initialization blocks, which can be an alternative to class constructors for initializing fields
+    // instance. They are simply described in the body of the class, outside any other blocks.
 
-    /**
-     * Компилятор Java вставляет код динамических блоков инициализации в каждый конструктор (в начало его тела)
-     * в порядке их описания в теле класса.
-     * */ {
+
+    // The Java compiler inserts dynamic initialization block code into each constructor (at the beginning of its body)
+    // in the order of their description in the class body.
+    {
         a = -5;
         System.out.println("Dynamic initialization section");
     }

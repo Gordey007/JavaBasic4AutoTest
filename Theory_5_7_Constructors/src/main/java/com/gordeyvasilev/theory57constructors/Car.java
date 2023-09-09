@@ -5,13 +5,12 @@ public class Car {
     private String carModel;
     private boolean flag;
 
-    // Нулевой конструктор (конструктор поумолчанию)
-    // для большинства типов данных значением по умолчанию является нулевая величина
+    // Null constructor (default constructor) For most data types, the default value is null.
     // boolean - false
 
 
-    // Если при описании конструктора указать тип возвращаемого значения, то Java воспримет его как метод класса,
-    // а не конструктор. Например, void Car(String carModel) { }
+    // If you specify a return type when declaring a constructor, Java will treat it as a class method rather
+    // than a constructor. For example, void Car(String carModel) { }.
     public void Car(String carModel) {
         this.carModel = carModel;
     }

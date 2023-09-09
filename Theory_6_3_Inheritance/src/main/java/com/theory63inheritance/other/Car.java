@@ -9,8 +9,8 @@ public class Car {
         this.name = name;
     }
 
-    // Всегда вызывается ближайший полиморфный метод к объекту, а не к типу ссылки.
-    // т.е. ElectricCar.show()
+    // Always call the closest polymorphic method to the object, not the reference type.
+    // i.e. ElectricCar.show()
     public void show() {
         System.out.println("Name: " + name);
     }

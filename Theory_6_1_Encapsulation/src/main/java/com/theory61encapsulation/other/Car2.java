@@ -4,21 +4,21 @@ import com.theory61encapsulation.gordeyvasilev.Car;
 
 public class Car2 extends Car {
     /**
-     * Если модификатор уровня доступа не указан, то класс или член класса будут видимыми и доступными только в теле
-     * этого же класса или класса из того же пакета. В таком случае по умолчанию устанавливается модификатор package-private.
+     * If the access level modifier is not specified, then the class or class member will be visible and accessible only in the body
+     * the same class or a class from the same package. In this case, the package-private modifier is set by default.
      */
     static int speed2;
 
     protected int speed2_2;
 
-    // дефолтный модификатор + статик можно использовать
+    // default modifier + static can be used
     /**
-     * Модификатор static применяется для создания методов и переменных (полей), принадлежащих классу, а не объекту.
+     * The static modifier is used to create methods and variables (fields) that belong to a class rather than an object.
      * */
 
     /**
-     * Поле или метод, объявленные в классе как static, являются общими для всех объектов этого класса
-     * и называются полем класса или методом класса. Другими словами, они принадлежат классу, а не экземпляру класса.
+     * A field or method declared static in a class is common to all objects of that class
+     * and are called a class field or a class method. In other words, they belong to the class, not to an instance of the class.
      */
     static int speedStatic2;
 

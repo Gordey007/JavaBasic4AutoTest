@@ -1,6 +1,6 @@
 package com.gordeyvasilev.theory62staticandfinal.finaltest;
 
-// Класс, объявленный с final, не может иметь наследников
+// A class declared final cannot have descendants
 
 import com.gordeyvasilev.theory62staticandfinal.Car;
 

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Person {
     /**
-     * Ссылочной переменной, объявленной как final, не может быть назначен другой объект.
-     * Однако данные внутри объекта могут быть изменены.
+     * A reference variable declared as final cannot be assigned to another object.
+     * However, the data inside the object can be changed.
      */
     private final ArrayList friends = new ArrayList<>();
 

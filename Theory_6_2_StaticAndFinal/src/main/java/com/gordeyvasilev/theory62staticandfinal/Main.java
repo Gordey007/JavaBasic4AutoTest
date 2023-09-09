@@ -5,9 +5,9 @@ import com.gordeyvasilev.theory62staticandfinal.finaltest.Person;
 public class Main {
     public static void main(String[] args) {
         /**
-         * Определен класс DemoStatic, содержащий только статические элементы. В методе main() класса DemoMain
-         * показано обращение (взаимодействие) к полям и методу класса DemoStatic без создания его экземпляра,
-         * так как в этом нет необходимости.
+         * The DemoStatic class is defined, containing only static elements. In the main() method of the DemoMain class
+         * shows access (interaction) to the fields and method of the DemoStatic class without creating an instance of it,
+         * since this is not necessary.
          * */
 
         DemoStatic.x = 3;
@@ -22,7 +22,7 @@ public class Main {
         Person man2 = new Person();
         Person man3 = new Person();
         /**
-         * Поскольку метод addFriend() не меняет ссылку, а только изменяет состояние коллекции, то ошибки не происходит.
+         * Since the addFriend() method does not change the link, but only changes the state of the collection, no error occurs.
          * */
         man3.addFriend(man1);
         man3.addFriend(man2);

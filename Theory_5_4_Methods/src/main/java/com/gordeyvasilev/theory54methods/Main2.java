@@ -17,7 +17,7 @@ public class Main2 {
         System.out.println(tstvarg.calcSumStr("Hi", a, b, c));
 
         System.out.println(tstvarg.calcSum3(3));
-//        System.out.println(tstvarg.calcSum3());
+        // System.out.println(tstvarg.calcSum3());
 
     }
 }

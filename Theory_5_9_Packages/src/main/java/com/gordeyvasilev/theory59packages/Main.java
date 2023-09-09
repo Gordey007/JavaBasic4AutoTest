@@ -6,10 +6,9 @@ package com.gordeyvasilev.theory59packages;
 // without class membership by using static imports, as shown below.
 
 /**
- * При вызове статических методов и обращении к статическим константам приходится использовать в качестве префикса
- * имя класса, что утяжеляет код и снижает скорость его восприятия.
+ * When calling static methods and accessing static constants, you must use as a prefix
+ * class name, which makes the code heavier and reduces the speed of its perception.
  */
-
 import static java.lang.Math.*;
 
 import static java.lang.Math.E; // for one constant

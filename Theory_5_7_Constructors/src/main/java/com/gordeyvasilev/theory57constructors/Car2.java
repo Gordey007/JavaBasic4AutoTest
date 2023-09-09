@@ -5,7 +5,7 @@ public class Car2 {
     private String brand;
 
     public Car2() {
-        // Ошибка компиляции - вызов другого конструктора должен быть первым
+        // Compilation error - another constructor must be called first.
         // System.out.println("Init");
         // this("Camry", "Toyota");
 

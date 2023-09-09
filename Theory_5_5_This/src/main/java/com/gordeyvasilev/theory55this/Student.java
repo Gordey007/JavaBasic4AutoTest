@@ -12,7 +12,7 @@ public class Student {
     }
 
     /**
-     * @note т.к. имя переменной отличается, то this не нужен
+     * @note because the variable name is different, then this is not needed
      */
     public void setFirstName2(String name) {
         firstName = name;

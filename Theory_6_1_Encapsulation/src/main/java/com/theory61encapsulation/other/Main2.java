@@ -8,11 +8,11 @@ public class Main2 {
 
         Car2 fastCar2 = new Car2();
 
-        //fastCar2.speed = 100; // Ошибка - Main и Car2 в разных пакетах.
-        fastCar2.setSpeed2(100); // Доступ к полю через открытый метод
+        //fastCar2.speed = 100; // Error - Main and Car2 are in different packages.
+        fastCar2.setSpeed2(100); // Accessing a field via a public method
         System.out.println(fastCar2.getSpeed2());
 
-        // Car2 наследник Car
+        // Car2 successor to Car
         fastCar2.setSpeed(100);
 
         System.out.println(speedStatic);

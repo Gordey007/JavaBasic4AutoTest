@@ -4,12 +4,12 @@ public class Car {
     private int numOfCars;
 
     /**
-     * Статические поля класса:
+     * Static class fields:
      * <p>
-     * создаются при первом обращении к классу
-     * создаются в единственном числе
-     * существуют независимо от экземпляров класса
-     * допускают обращение к ним до создания экземпляра класса.
+     * are created the first time the class is accessed
+     * are created in singular
+     * exist independently of class instances
+     * allow access to them before creating an instance of the class.
      */
     private static int numOfCars2;
     static int numOfCars2_1;

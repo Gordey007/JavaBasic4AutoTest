@@ -3,17 +3,17 @@ package com.theory63inheritance.gordeyvasilev;
 public class Base {
     private int a, b;
     int a2, b2;
-    //  Конструктор подкласса может вызывать конструктор суперкласса, используя ключевое слово super
+    // The subclass constructor can call the superclass constructor using the super keyword
     /**
-     * Обычно обращение к конструктору суперкласса в теле конструктора подкласса используется для инициализации закрытых
-     * полей суперкласса. Такие поля не перешли в область видимости подкласса, но являются его характеристиками,
-     * которые нужно инициализировать при создании объекта подкласса.
+     * Typically, calling a superclass constructor in the body of a subclass constructor is used to initialize private
+     * superclass fields. Such fields have not passed into the scope of the subclass, but are its characteristics,
+     * which need to be initialized when creating a subclass object.
      * */
 
     /**
-     * Ключевое слово super – это предопределенная ссылка на объект суперкласса в теле подкласса.
-     * Это ключевое слово может использоваться в конструкторах подкласса для явного обращения к конструкторам суперкласса.
-     * Основное назначение – инициализация закрытых полей суперкласса.
+     * The super keyword is a predefined reference to a superclass object in the body of a subclass.
+     * This keyword can be used in subclass constructors to explicitly call superclass constructors.
+     * The main purpose is to initialize private fields of the superclass.
      */
     Base(int a, int b) {
         this.a = a;

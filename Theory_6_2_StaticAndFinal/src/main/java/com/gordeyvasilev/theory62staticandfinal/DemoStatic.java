@@ -6,12 +6,12 @@ public class DemoStatic {
     public int y2;
 
     /**
-     * Ограничения для статических методов:
+     * Limitations for static methods:
      * <p>
-     * - статические методы могут вызывать напрямую только статические методы
-     * - статические методы могут обращаться напрямую только к статическим полям или к своим параметрам
-     * к статическим методам нельзя обратиться через ссылки this и super
-     * - статические методы могут перегружаться нестатическими и наоборот.
+     * - static methods can only call static methods directly
+     * - static methods can directly access only static fields or their parameters
+     * static methods cannot be accessed via this and super references
+     * - static methods can be overloaded with non-static ones and vice versa.
      */
     public static int lengthVector() {
         // System.out.println(y2); // Error
