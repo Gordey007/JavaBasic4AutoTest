@@ -18,4 +18,5 @@ include 'Theory_6_4_SubclassingCapabilities'
 include 'Theory_6_5_Polymorphism'
 include 'Theory_6_6_MethodOverloading'
 include 'Theory_6_7_ObjectClass'
+include 'Theory_7_1_AbstractClasses'
 
