@@ -34,23 +34,39 @@ jobs:
         uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
         with:
           arguments: build
-      - name: Run JUnit test Practice_2_7_1_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_2_7_1_Test"
-      - name: Run JUnit test Practice_3_5_2_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_2_Test"
-      - name: Run JUnit test Practice_3_5_3_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_3_Test"
-      - name: Run JUnit test Practice_3_5_4_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_4_Test"
-      - name: Run JUnit test Practice_3_5_5_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_5_Test"
-      - name: Run JUnit test Practice_3_5_6_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_6_Test"
-#      - name: Run JUnit test Practice_3_5_8_Test
-#        run: gradle :test --tests "com.gordeyvasilev.Practice_3_5_8_Test"
-      - name: Run JUnit test Practice_4_6_2_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_4_6_2_Test"
-      - name: Run JUnit test Practice_4_6_3_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_4_6_3_Test"
-      - name: Run JUnit test Practice_4_6_4_Test
-        run: gradle :test --tests "com.gordeyvasilev.Practice_4_6_4_Test"
+      - name: Run JUnit test practice27datatypes.Practice_2_7_1_Test
+        run: gradle :test --tests "com.gordeyvasilev.com.gordeyvasilev.practice27datatypes.Practice_2_7_1_Test"
+
+      - name: Run JUnit test practice35conditionsandloop.Practice_3_5_2_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_2_Test"
+      - name: Run JUnit test practice35conditionsandloop.Practice_3_5_3_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_3_Test"
+      - name: Run JUnit test practice35conditionsandloop.Practice_3_5_4_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_4_Test"
+      - name: Run JUnit test practice35conditionsandloop.Practice_3_5_5_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_5_Test"
+      - name: Run JUnit test practice35conditionsandloop.Practice_3_5_6_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_6_Test"
+      - name: Run JUnit test practice35conditionsandloop.Practice_3_5_8_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice35conditionsandloop.Practice_3_5_8_Test"
+
+      - name: Run JUnit test practice46arrays.Practice_4_6_2_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice46arrays.Practice_4_6_2_Test"
+      - name: Run JUnit test practice46arrays.Practice_4_6_3_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice46arrays.Practice_4_6_3_Test"
+      - name: Run JUnit test practice46arrays.Practice_4_6_4_Test
+        run: gradle :test --tests "com.gordeyvasilev.practice46arrays.Practice_4_6_4_Test"
+
+      - name: Run JUnit test practice510classes.Practice_5_10_2_MainTest
+        run: gradle :test --tests "com.gordeyvasilev.practice510classes.Practice_5_10_2_MainTest"
+
+      - name: Run JUnit test practice68basicsofoop2java.Practice_6_8_2_Basics0fOOP2Java_MainTest
+        run: gradle :test --tests "com.gordeyvasilev.practice68basicsofoop2java.Practice_6_8_2_Basics0fOOP2Java_MainTest"
+
+      - name: Run JUnit test theory54methods.MainTest
+        run: gradle :test --tests "com.gordeyvasilev.theory54methods.MainTest"
+      - name: Run JUnit test theory54methods.VarArgTest
+        run: gradle :test --tests "com.gordeyvasilev.theory54methods.VarArgTest"
+
+      - name: Run JUnit test theory55this.StudentTest
+        run: gradle :test --tests "com.gordeyvasilev.theory55this.StudentTest"
