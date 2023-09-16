@@ -14,3 +14,8 @@ include 'Theory_5_6_CreateObject'
 include 'Theory_6_1_Encapsulation'
 include 'Theory_6_2_StaticAndFinal'
 include 'Theory_6_3_Inheritance'
+include 'Theory_6_4_SubclassingCapabilities'
+include 'Theory_6_5_Polymorphism'
+include 'Theory_6_6_MethodOverloading'
+include 'Theory_6_7_ObjectClass'
+
