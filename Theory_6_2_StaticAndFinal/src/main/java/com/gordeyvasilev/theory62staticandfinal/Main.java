@@ -1,9 +1,13 @@
 package com.gordeyvasilev.theory62staticandfinal;
 
 import com.gordeyvasilev.theory62staticandfinal.finaltest.Person;
-
+import com.gordeyvasilev.theory62staticandfinal.finaltest.Person;
 public class Main {
     public static void main(String[] args) {
+        Person person = new Person();
+        Person person2 = new Person();
+
+        person.addFriend2(person2);
         /**
          * The DemoStatic class is defined, containing only static elements. In the main() method of the DemoMain class
          * shows access (interaction) to the fields and method of the DemoStatic class without creating an instance of it,
