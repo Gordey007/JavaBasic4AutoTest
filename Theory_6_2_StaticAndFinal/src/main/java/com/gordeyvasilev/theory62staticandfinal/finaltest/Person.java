@@ -16,4 +16,9 @@ public class Person {
     public void addFriend(Person friend) {
         friends.add(friend);
     }
+
+    public void addFriend2(final Person friend) {
+        //System.out.println("friend");
+        friends.add(friend);
+    }
 }

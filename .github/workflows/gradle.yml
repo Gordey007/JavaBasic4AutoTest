@@ -63,6 +63,9 @@ jobs:
       - name: Run JUnit test practice68basicsofoop2java.Practice_6_8_2_Basics0fOOP2Java_MainTest
         run: gradle :test --tests "com.gordeyvasilev.practice68basicsofoop2java.Practice_6_8_2_Basics0fOOP2Java_MainTest"
 
+      - name: Run JUnit test practice76abstractclassesandinterfaces.Practice_7_6_AbstractClassesAndInterfaces_MainTest
+        run: gradle :test --tests "com.gordeyvasilev.practice76abstractclassesandinterfaces.Practice_7_6_AbstractClassesAndInterfaces_MainTest"
+
       - name: Run JUnit test theory54methods.MainTest
         run: gradle :test --tests "com.gordeyvasilev.theory54methods.MainTest"
       - name: Run JUnit test theory54methods.VarArgTest

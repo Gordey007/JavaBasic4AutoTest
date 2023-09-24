@@ -7,16 +7,23 @@ public class Demo7 {
         Point point3 = new Point(5, -5); // Creating New Objects
         Point point4 = new Point(5, 5);
 
-        System.out.println(point1.equals(point2));
-        System.out.println(point1.equals(point3));
-        System.out.println(point1.equals(point4));
+//        System.out.println(point1.equals(point2));
+//        System.out.println(point1.equals(point3));
+//        System.out.println(point1.equals(point4));
+
+        String world = "world";
 
         String str1 = "hello world";
         String str2 = "hello world";
-        String str3 = "hello world3";
+        String str3 = "hello3 ";
 
-        System.out.println(str1.equals(str2));
-        System.out.println(str1.equals(str3));
+        System.out.println(str1 == "hello world");
 
+//        System.out.println(str1.equals(str2));
+//        System.out.println(str1.equals(str3));
+//
+//        System.out.println(str1 == str2);
+//
+//        System.out.println(str1 == "hello world");
     }
 }
