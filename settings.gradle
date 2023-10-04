@@ -24,4 +24,8 @@ include 'Theory_7_3_InterfacesJava8'
 include 'Theory_7_4_CloningObjects'
 include 'Theory_7_5_DesignRecommendations'
 include 'Practice_7_6_AbstractClassesAndInterfaces'
+include 'Theory_8_1_StringClass'
+include 'Theory_8_2_ClassesStringBufferStringBuilder'
+include 'Theory_8_3_RegularExpressions'
+include 'Practice_8_3_RegularExpressions'
 
