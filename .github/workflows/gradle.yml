@@ -66,6 +66,11 @@ jobs:
       - name: Run JUnit test practice76abstractclassesandinterfaces.Practice_7_6_AbstractClassesAndInterfaces_MainTest
         run: gradle :test --tests "com.gordeyvasilev.practice76abstractclassesandinterfaces.Practice_7_6_AbstractClassesAndInterfaces_MainTest"
 
+      - name: Run JUnit test practice83regularexpressions.Practice_8_3_RegularExpressions_MainTest
+        run: gradle :test --tests "com.gordeyvasilev.practice83regularexpressions.Practice_8_3_RegularExpressions_MainTest"
+      - name: Run JUnit test practice83regularexpressions.Practice_8_3_RegularExpressions_Main2Test
+        run: gradle :test --tests "com.gordeyvasilev.practice83regularexpressions.Practice_8_3_RegularExpressions_Main2Test"
+
       - name: Run JUnit test theory54methods.MainTest
         run: gradle :test --tests "com.gordeyvasilev.theory54methods.MainTest"
       - name: Run JUnit test theory54methods.VarArgTest
